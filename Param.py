@@ -44,5 +44,5 @@ SPLIT = 0.2
 LOSS = 'mse'
 OPTIMIZER = 'adam'
 LEARN = 0.001
-BATCHSIZE = 1
-EPOCH = 200
+BATCHSIZE = 1 #时序处理的数据就需要是1
+EPOCH = 50

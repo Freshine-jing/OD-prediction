@@ -11,12 +11,14 @@ from keras.layers.convolutional import Conv2D
 from keras.layers.convolutional_recurrent import ConvLSTM2D
 from keras.callbacks import CSVLogger, EarlyStopping, ModelCheckpoint, LearningRateScheduler
 from keras import activations, initializers, constraints
-from keras import regularizers
+from keras import regularizersv
 from keras.engine import Layer
 import keras.backend as K
 
 from load_data import *
 from metric import *
+
+from Transformer_ import *
 
 ###########################Reproducible#############################
 import random
